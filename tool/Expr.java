@@ -1,4 +1,4 @@
-package fun.sam.lox;
+package sam.fun.jlox;
 
 import java.util.List;
 
