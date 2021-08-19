@@ -1,4 +1,4 @@
-//package sam.fun.tool;
+package jlox;
 
 import java.io.IOException;
 import java.io.PrintWriter;

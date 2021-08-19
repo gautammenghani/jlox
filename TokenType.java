@@ -1,4 +1,4 @@
-package sam.fun.jlox;
+package jlox;
 
 enum TokenType {
   // Single-character tokens.

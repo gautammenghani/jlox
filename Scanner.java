@@ -1,9 +1,9 @@
-package sam.fun.jlox;
+package jlox;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import static sam.fun.jlox.TokenType.*; 
+import static jlox.TokenType.*; 
 
 class Scanner {
   private final String source;
@@ -96,9 +96,9 @@ class Scanner {
         } else if (isAlpha(c)) {
           identifier();
         } else {
-          Lox.error(line, "Unexpected character.");
+          JLox.error(line, "Unexpected character.");
         }
-        Lox.error(line, "Unexpected character.");
+        JLox.error(line, "Unexpected character.");
         break;
     }
   }
@@ -127,7 +127,7 @@ class Scanner {
     }
 
     if (isAtEnd()) {
-      Lox.error(line, "Unterminated string.");
+      JLox.error(line, "Unterminated string.");
       return;
     }
 

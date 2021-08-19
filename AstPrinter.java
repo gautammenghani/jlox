@@ -1,4 +1,4 @@
-package sam.fun.jlox;
+package jlox;
 
 class AstPrinter implements Expr.Visitor<String> {
   String print(Expr expr) {

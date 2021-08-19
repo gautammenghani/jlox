@@ -1,4 +1,4 @@
-package sam.fun.jlox;
+package jlox;
 
 class Token {
   final TokenType type;
